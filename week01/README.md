@@ -22,7 +22,7 @@
 | 15:00–15:48 | iRAT (รายบุคคล) → tRAT (ทีม) → อุทธรณ์ | [`tbl/irat-trat.md`](tbl/irat-trat.md) |
 | 15:53–16:33 | จัดชั้นโจทย์ 8 ใบ: ไม่ใช้ AI / ML / DL | [`tbl/sorting-cards.md`](tbl/sorting-cards.md) |
 | 16:33–16:52 | มินิเล็กเชอร์ · Exit ticket (มีคำทำนายคะแนน CLIP) · ชี้แจงงานข้ามคืน | [`worksheets/student-worksheet.md`](worksheets/student-worksheet.md) |
-| 16:52–17:00 | **Colab Ready Check** — เปิด notebook จาก repo ตนเอง รันเซลล์ 0.2 และ Save a copy in GitHub | [`lab/week01_lab.ipynb`](lab/week01_lab.ipynb) |
+| 16:52–17:00 | **Colab Ready Check** — เปิด notebook ผ่านป้าย Open in Colab, Save a copy in Drive, รันเซลล์ 0.2 และดาวน์โหลด .ipynb อัปโหลดเข้า repo ตนเอง | [`lab/week01_lab.ipynb`](lab/week01_lab.ipynb) |
 
 ## คืนวันจันทร์ — งานข้ามคืน (≈25 นาที)
 
@@ -38,7 +38,7 @@
 | 09:55–10:45 | ส่วน 3–4: CLIP zero-shot + ภารกิจ Prompt #2 |
 | 10:45–11:30 | ส่วน 5–6: Verify on map, Prompt Log, commit เข้า GitHub |
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USER/geoai-kku/blob/main/week01/lab/week01_lab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/N-Jaro/geoai-kku/blob/main/week01/lab/week01_lab.ipynb)
 
 ## สิ่งที่ต้องส่ง (ภายในวันที่ประกาศ)
 

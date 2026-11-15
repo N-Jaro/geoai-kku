@@ -7,3 +7,6 @@ __pycache__/
 *.tiff
 data/
 outputs/
+desktop.ini
+Thumbs.db
+~$*

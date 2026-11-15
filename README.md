@@ -16,7 +16,7 @@
 
 | สัปดาห์ | หัวข้อ | โฟลเดอร์ | แล็บ |
 |---|---|---|---|
-| 1 | GeoAI คืออะไร + Vibe Coding | [`week01/`](week01/) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USER/geoai-kku/blob/main/week01/lab/week01_lab.ipynb) |
+| 1 | GeoAI คืออะไร + Vibe Coding | [`week01/`](week01/) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/N-Jaro/geoai-kku/blob/main/week01/lab/week01_lab.ipynb) |
 | 2–16 | จะทยอยเพิ่มตลอดเทอม | — | — |
 
 ## กฎของวิชา (ย่อ)

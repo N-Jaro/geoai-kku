@@ -8,8 +8,8 @@
 - [ ] สร้าง repo ของตนเองจาก template แล้ว (ชื่อ `geoai-<รหัสนักศึกษา>`, Private)
 - [ ] เพิ่มอาจารย์เป็น Collaborator แล้ว
 - [ ] เปิด Colab ด้วย Google Account และรันเซลล์ทดสอบได้
-- [ ] เปิด notebook ของวิชาผ่านป้าย Open in Colab ได้
-- [ ] บันทึก notebook กลับ GitHub (Save a copy in GitHub) สำเร็จ 1 ครั้ง
+- [ ] เปิด notebook ของวิชาผ่านป้าย Open in Colab ได้ และ Save a copy in Drive แล้ว
+- [ ] ดาวน์โหลด .ipynb แล้วอัปโหลดเข้า repo ของตนเองบน github.com สำเร็จ 1 ครั้ง
 
 ## ขั้นที่ 1 — สร้าง repo ของคุณจาก template
 
@@ -26,24 +26,27 @@
 
 ## ขั้นที่ 3 — เปิด notebook ของวิชา
 
-1. เปิดไฟล์ `README.md` ของ repo ที่อาจารย์แชร์ แล้วกดป้าย **Open in Colab** ของสัปดาห์ที่ต้องการ
-2. ถ้า repo เป็น Private ให้กด **Authorize** ให้ Colab เข้าถึง GitHub เมื่อมีหน้าต่างขอสิทธิ์ (ทำครั้งเดียว)
+1. เปิดไฟล์ `README.md` ของ repo ที่อาจารย์แชร์ (หรือ repo ของคุณเอง) แล้วกดป้าย **Open in Colab** ของสัปดาห์ที่ต้องการ
+2. **ทำทันที:** เมนู **File → Save a copy in Drive** แล้วทำงานในสำเนาของคุณ (notebook ต้นฉบับบันทึกกลับไม่ได้ และงานจะหายถ้าปิดหน้าต่าง)
+3. ไม่ต้อง Authorize GitHub เพราะ notebook ของวิชาเป็น repo สาธารณะ
 
-## ขั้นที่ 4 — บันทึกงานเข้า repo ของตัวเอง (ทุกสัปดาห์)
+## ขั้นที่ 4 — ส่งงานเข้า repo ของตัวเอง (ทุกสัปดาห์)
 
-1. ใน Colab: **File → Save a copy in GitHub**
-2. เลือก repository `geoai-<รหัสนักศึกษา>` · branch `main`
-3. File path: `week01/lab/week01_lab_<รหัส>.ipynb` (เปลี่ยนเลขสัปดาห์ตามจริง)
-4. Commit message: `week01: lab + prompt log` → OK
+Colab ไม่มีเมนู Save a copy in GitHub แล้ว ให้ส่งงานด้วยการดาวน์โหลดและอัปโหลดแทน
+
+1. ใน Colab: **File → Download → Download .ipynb**
+2. เปลี่ยนชื่อไฟล์เป็น `week01_lab_<รหัส>.ipynb` (เปลี่ยนเลขสัปดาห์ตามจริง)
+3. เปิด repo `geoai-<รหัสนักศึกษา>` บน github.com ไปที่โฟลเดอร์ `week01/lab/` → **Add file → Upload files** แล้วลากไฟล์ใส่
+4. Commit message: `week01: lab + prompt log` → เลือก **Commit directly to the main branch** → **Commit changes**
 5. ตรวจว่าไฟล์ขึ้นใน repo ของคุณบน github.com
 
-> เคล็ดลับ: สำรองสำเนาไว้ใน Google Drive ด้วย (**File → Save a copy in Drive**) เผื่อเน็ตหลุดระหว่างทำแล็บ
+> เคล็ดลับ: ถ้าเน็ตหลุดระหว่างทำแล็บ ให้เปิดสำเนาใน Google Drive ของคุณ (**File → Save a copy in Drive** ที่ทำไว้ในขั้นที่ 3) งานยังอยู่
 
 ## ปัญหาที่พบบ่อย
 
 | อาการ | แก้ไข |
 |---|---|
-| Colab หา repo ไม่เจอ | กด Authorize GitHub ใน Colab อีกครั้ง และเลือก "All repositories" หรือ repo ที่ต้องการ |
+| ป้าย Open in Colab เปิดไม่ได้ / ค้างที่ "waiting for authorization from GitHub" | กด Cancel แล้วเปิดลิงก์ป้ายจาก README ของ repo ต้นแบบ (สาธารณะ) ใหม่ ถ้ายังไม่ได้ให้แจ้งอาจารย์ |
 | `ModuleNotFoundError` | รันเซลล์ติดตั้งไลบรารีที่ต้นไฟล์ใหม่ (หลัง Runtime รีสตาร์ทต้องติดตั้งใหม่) |
 | Session หลุด/ข้อมูลหาย | Colab ลบไฟล์ใน `/content` เมื่อ session จบ — เก็บผลลัพธ์สำคัญไว้ใน Drive หรือ commit เข้า repo |
 | ดาวน์โหลดข้อมูลช้า/ล้มเหลว | รอสักครู่แล้วรันเซลล์ใหม่ (STAC เป็นบริการสาธารณะ อาจช้าช่วงคนใช้เยอะ) ถ้ายังไม่ได้ให้แจ้งอาจารย์ |
