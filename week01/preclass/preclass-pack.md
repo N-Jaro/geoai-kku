@@ -79,7 +79,6 @@ ML ทั่วไปมักสมมติว่าตัวอย่าง�
 **อ่านเพิ่ม (ไม่บังคับ)**
 
 - บทความภาษาไทย [GeoAI คืออะไร? เมื่อ GIS ผสานพลังกับ Artificial Intelligence (iok2u)](https://iok2u.com/article/information-technology/geoai101-01) — ละเอียดกว่า มีศัพท์เทคนิคเยอะ (ประมาณ 10 นาที)
-- หนังสือหลัก *GeoAI: Artificial Intelligence in GIS* (Chivite, Giner, Artz, Esri Press) — Introduction หน้า ix–x และ Part 1 หน้า 1–10 (ภาษาอังกฤษ ขอยืมจากอาจารย์/ห้องสมุด และใช้ AI ช่วยแปลหรือสรุปเป็นไทยได้ ประมาณ 15 นาที)
 
 ## คำถามอุ่นเครื่อง (ไม่ต้องส่ง)
 
